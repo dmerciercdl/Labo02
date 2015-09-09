@@ -1,0 +1,24 @@
+
+#container {
+    position: relative;
+    z-index:1;
+    width:60%;
+    height:40%;
+    background: #383838;
+    overflow: hidden;
+    margin: auto;
+    top:0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+#text
+{
+    z-index:2;
+    position:absolute;
+    color:white;
+    font-size:24px;
+    font-weight:bold;
+
+}
