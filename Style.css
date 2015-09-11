@@ -1,44 +1,44 @@
 
 .container {
-    display: inline-block;
-    margin: 50px;
-
-}
-
-.container div {
-    position: absolute;
+    position: relative;
+    /*margin: 50px;*/
+    margin: 0 auto;
+    width: 800px;
+    height: 400px;
 }
 
 .carouselImage {
     position: absolute;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 #arrowButtonContainer {
     position: absolute;
     display: inline-block;
-    width: 800px;
-    height: 400px;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
 }
 
 #previousButton {
     float:left;
     margin-left: 5px;
-    margin-top: 175px;
+    margin-top: 180px;
 }
 
 #nextButton {
     float:right;
     margin-right: 5px;
-    margin-top: 175px;
+    margin-top: 180px;
 }
 
 #indexBulletContainer {
     position: absolute;
     display: block;
-    width: 800px;
-    height: 400px;
-    margin: 0 auto;
-
+    margin-left: auto;
+    margin-right: auto;
 }
