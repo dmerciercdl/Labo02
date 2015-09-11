@@ -46,7 +46,6 @@ function incrementIndex() {
     if(imgIndex >= IMAGE_NUMBER) {
         imgIndex = 0;
     }
-    console.log("index is " + imgIndex);
 }
 
 // Decrement the index of the image to display.
@@ -56,7 +55,6 @@ function decrementIndex() {
     if(imgIndex < 0) {
         imgIndex = IMAGE_NUMBER-1;
     }
-    console.log("index is " + imgIndex);
 }
 
 // Set the index of the image to display
